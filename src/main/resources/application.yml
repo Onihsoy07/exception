@@ -1,5 +1,10 @@
-#?? ?? ??? ??
+#에러 페이지 whitelabel 표시 안함
+#include-xxx spring 기본 에러 페이지 exception trace 표시
 server:
   error:
+#    include-exception: true
+#    include-message: always
+#    include-stacktrace: always
+#    include-binding-errors: always
     whitelabel:
       enabled: false
